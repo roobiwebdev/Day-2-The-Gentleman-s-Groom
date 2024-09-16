@@ -1,11 +1,10 @@
-![image](https://github.com/user-attachments/assets/fa50dcce-8067-4192-adcf-087289018795)Day-1: Coffee Landing Page
-
-I'm excited to start my 100 Days of Code challenge with a simple landing page for Ethiopian Sunrise coffee. It's designed to look great on small screens and give people a quick 
-overview of our new, ethically sourced coffee. Share your thoughts and feelings
+Day-2: The Gentleman's Groom 
+ 
+my 100 Days of Code challenge with a simple landing page for The Gentleman's Groom, a modern barbershop. The page is designed for easy navigation on mobile devices and provides a quick overview of our services. Let me know what you think
 
 ##Screenshot
 
-![Screenshot_16-9-2024_23139_](https://github.com/user-attachments/assets/5c58fcda-691f-4274-9145-703ecca90ba2)
+![Screenshot_16-9-2024_23139_](https://github.com/user-attachments/assets/89f37f79-f7c3-4547-ba18-7f25222a35c7)
 
 
 ###Live Demo
