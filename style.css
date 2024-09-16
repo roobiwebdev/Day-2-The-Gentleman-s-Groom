@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(12, 12, 12);
+}
+
+body {
+  margin: 2rem 3rem;
+  background-color: rgb(220, 220, 220);
+}
+button {
+  padding: 10px 20px;
+  background: rgba(57, 3, 78, 0.849);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s all ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul li {
+  font-weight: bold;
+  display: inline;
+  padding: 20px;
+  transition: 0.2s all ease-in-out;
+}
+
+ul li:hover {
+  border-top: 3px solid rgba(57, 3, 78, 0.849);
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s all ease-in-out;
+}
+
+ul li a:hover {
+  color: rgb(82, 4, 112);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.head h1 {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.head p {
+  color: rgb(110, 110, 110);
+  margin-bottom: 30px;
+  /* font-size: 17px; */
+  max-width: 50%;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container .img-1 {
+  width: 250px;
+  height: 380px;
+  background: url(assets/jakob-owens-lkMJcGDZLVs-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  left: 900px;
+  top: 200px;
+  transition: all 0.5s ease-in-out;
+}
+
+.img-container .img-2 {
+  width: 250px;
+  height: 380px;
+  background: url(assets/stephan-louis-L3s5QySz5UM-unsplash.jpg);
+  background-position: top;
+  background-size: cover;
+  position: absolute;
+  left: 770px;
+  top: 350px;
+  transition: all 0.5s ease-in-out;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40%;
+}
+
+.section h1 span {
+  color: rgb(109, 109, 109);
+  font-size: 2rem;
+}
+
+.section h1 {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.section p {
+  max-width: 500px;
+  color: rgb(109, 109, 109);
+  margin-bottom: 30px;
+}
+
+.img-container-2 {
+  width: 400px;
+  height: 500px;
+  background: url(assets/eugene-chystiakov-taZSJ6xmt48-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 10rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.links {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.img-container-3 {
+  width: 400px;
+  height: 500px;
+  background: url(assets/albert-dera-ILip77SbmOE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 10rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.content-3 h1 {
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.content-3 p {
+  max-width: 500px;
+  color: rgb(109, 109, 109);
+  margin-bottom: 30px;
+}
+.img-container .img-1:hover,
+.img-container .img-2:hover,
+.img-container-2:hover,
+.img-container-3:hover {
+  transform: rotate(10deg);
+  cursor: grab;
+  border-radius: 10px;
+}
