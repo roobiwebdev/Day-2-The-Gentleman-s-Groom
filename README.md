@@ -9,4 +9,4 @@ my 100 Days of Code challenge with a simple landing page for The Gentleman's Gro
 
 ###Live Demo
 
-[Visit my website](https://roobiwebdev.github.io/The-Gentleman-s-Groom/)
+[Visit my website](https://roobiwebdev.github.io/Day-2-The-Gentleman-s-Groom/)
